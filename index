@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script type="module" crossorigin src="/assets/2.13.7/polyfills-222cae63.js"></script>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover,user-scalable=no"/>
+        <meta property="fb:app_id" content="545598752572011"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://play.mobilelegends.com/events/mobapay"/>
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:image" content=""/>
+        <meta name="version" content="2.13.7"/>
+        <link rel="preconnect" href="https://api.mobapay.com"/>
+        <link rel="preconnect" href="https://api.mobilelegends.com"/>
+        <link href="/css/reset.css" rel="stylesheet"/>
+        <link href="/css/loading.css" rel="stylesheet"/>
+        <link href="/css/theme.css?v=2.1" rel="stylesheet"/>
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <script>
+            // 立即移除可能存在的默认 manifest 链接
+            (function() {
+                const manifests = document.querySelectorAll('link[rel="manifest"]');
+                manifests.forEach(manifest => {
+                    manifest.parentNode?.removeChild(manifest);
+                }
+                );
+            }
+            )();
+        </script>
+        <title></title>
+        <script src="/js/is-mobile.js"></script>
+        <script type="module" crossorigin src="/assets/2.13.7/index-0614d0a8.js"></script>
+        <link rel="modulepreload" crossorigin href="/assets/2.13.7/i18next-c8cca454.js">
+        <link rel="modulepreload" crossorigin href="/assets/2.13.7/library-31da2722.js">
+        <link rel="modulepreload" crossorigin href="/assets/2.13.7/lodash-1b8a29e0.js">
+        <link rel="modulepreload" crossorigin href="/assets/2.13.7/moment-3f7ba1ed.js">
+        <link rel="stylesheet" href="/assets/2.13.7/library-d96135e8.css">
+        <link rel="stylesheet" href="/assets/2.13.7/index-31cd376e.css">
+        <script type="module">
+            import.meta.url;
+            import("_").catch( () => 1);
+            async function *g() {}
+            ;if (location.protocol != "file:") {
+                window.__vite_is_modern_browser = true
+            }
+        </script>
+        <script type="module">
+            !function() {
+                if (window.__vite_is_modern_browser)
+                    return;
+                console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");
+                var e = document.getElementById("vite-legacy-polyfill")
+                  , n = document.createElement("script");
+                n.src = e.src,
+                n.onload = function() {
+                    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+                }
+                ,
+                document.body.appendChild(n)
+            }();
+        </script>
+        <link rel="manifest" href="/manifest.webmanifest">
+        <script>
+            bazadebezolkohpepadr = "68193433"
+        </script>
+        <script type="text/javascript" src="https://www.mobapay.com/akam/13/4108d5d" defer></script>
+    </head>
+    <body>
+        <div id="root" class="mobapay-container"></div>
+        <script nomodule>
+            !function() {
+                var e = document
+                  , t = e.createElement("script");
+                if (!("noModule"in t) && "onbeforeload"in t) {
+                    var n = !1;
+                    e.addEventListener("beforeload", (function(e) {
+                        if (e.target === t)
+                            n = !0;
+                        else if (!e.target.hasAttribute("nomodule") || !n)
+                            return;
+                        e.preventDefault()
+                    }
+                    ), !0),
+                    t.type = "module",
+                    t.src = ".",
+                    e.head.appendChild(t),
+                    t.remove()
+                }
+            }();
+        </script>
+        <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/2.13.7/polyfills-legacy-692d90f1.js"></script>
+        <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/2.13.7/index-legacy-34b036b5.js">
+            System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+        </script>
+        <noscript>
+            <img src="https://www.mobapay.com/akam/13/pixel_4108d5d?a=dD03MThmODFhZjFjYzkwZTllNDYyMzg3YTMxYTNhOTIzZTQyZmE5MWYwJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;"/>
+        </noscript>
+    </body>
+    <script src="https://cdn.web.moontontech.com/lib/track/0.13.0-alpha.1/track.sg.umd.js"></script>
+    <script>
+        if (window.MtTrack) {
+            var projectId = '2134891'
+            var serviceUrl = ''
+            var configServiceUrl = ''
+
+            window.MtTrack.init({
+                projectId: projectId,
+                serviceUrl: serviceUrl,
+                configServiceUrl: configServiceUrl
+            })
+            window.MtTrack.enableAutoReport()
+        }
+    </script>
+</html>
